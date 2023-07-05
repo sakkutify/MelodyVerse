@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+html{
+    font-size: 80%;
+}
 body{
     background-color: rgb(255, 255, 255);
 }
@@ -17,24 +20,24 @@ nav ul{
     display: flex;
     align-items: center;
     list-style-type: none;
-    height: 60px;
+    height: 3.75rem;
     background-color: rgb(44, 29, 57);
     color: white;
 }
 
 nav ul li{
-    padding: 0 12px;
+    padding: 0 .75rem;
 }
 .brand img{
-    width: 44px;
-    padding: 0 8px;
+    width: 2.75rem;
+    padding: 0 .5rem;
 }
 
 .brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: 1.4375rem;
 }
 
 .container{
@@ -43,17 +46,17 @@ nav ul li{
     color: white;
    font-family: 'Varela Round', sans-serif;
    display: flex;
-   margin: 23px auto;
+   margin: 1.4375rem auto;
    width: 75%;
-   border-radius: 12px;
-   padding: 30px;
+   border-radius: .75rem;
+   padding: 1.875rem;
    background-image: url(fon.jpeg);
 }
 
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 130px;
+    height: 8.125rem;
     background-color: rgb(44,29,57);
     color: white;
     display: flex;
@@ -63,7 +66,7 @@ nav ul li{
 }
 
 .icons{
-    margin-top: 14px; 
+    margin-top: 0.875rem; 
 }
 .icons i{
     cursor: pointer;
@@ -75,29 +78,29 @@ nav ul li{
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 4.625rem;
 }
 
 .songItem{
-    height: 46px;
+    height: 2.875rem;
     display: flex;
     background-color: white;
     width: 90%;
     color: black;
-    margin: 12px 0;
+    margin: 0.875rem 0;
     justify-content: space-between;
     align-items: center;
-    border-radius: 34px;
+    border-radius: 2.125rem;
 }
 
 .songItem img{
-    width: 40px;
-    margin: 0 40px;
-    border-radius: 40px;
+    width: 2.5rem;
+    margin: 0 2.5rem;
+    border-radius: 2.5rem;
 }
 
 .timestamp{
-    margin: 0 23px;
+    margin: 0 1.4375rem;
 }
 
 .timestamp i{
@@ -119,4 +122,48 @@ nav ul li{
     body {
       background-color: rgb(255, 255, 255);
     }
+    .container{
+        min-height: 74vh;
+        background-color: black;
+        color: white;
+       font-family: 'Varela Round', sans-serif;
+       font-size: xx-small;
+       display: flex;
+       margin: 1rem auto;
+       width: 24.7rem;
+       border-radius: .9rem;
+       padding: 1rem;
+       background-image: url(fon.jpeg);
+    }
+    .songItem{
+        height: 2.4rem;
+        display: flex;
+        background-color: white;
+        width: 100%;
+        color: black;
+        margin: 0.8rem 0;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 2.125rem;
+    }
+    .songItem img{
+        width: 2rem;
+        margin: 0 2.5rem;
+        border-radius: 2rem;
+    }
+    .bottom{
+        position: sticky;
+        bottom: 0;
+        height: 9.5rem;
+        background-color: rgb(44,29,57);
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column; 
+    }
+    .icons{
+        margin-top: 3.5rem; 
+    }
+    
   }

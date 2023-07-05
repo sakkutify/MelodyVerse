@@ -165,5 +165,12 @@ nav ul li{
     .icons{
         margin-top: 3.5rem; 
     }
-    
+    nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 5rem;
+    background-color: rgb(44, 29, 57);
+    color: white;
+}
   }
